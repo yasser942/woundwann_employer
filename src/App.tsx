@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthPage } from "./pages/AuthPage";
 import { Dashboard } from "./components/dashboard/Dashboard";
 import { Profile } from "./components/profile/Profile";
+import { FileUpload } from "./components/files/FileUpload";
 import { MainLayout } from "./components/layout/MainLayout";
 import NotFound from "./pages/NotFound";
 
@@ -39,6 +40,11 @@ const App = () => {
               <Route path="/dashboard" element={
                 <MainLayout onLogout={handleLogout}>
                   <Dashboard />
+                </MainLayout>
+              } />
+              <Route path="/files" element={
+                <MainLayout onLogout={handleLogout}>
+                  <FileUpload />
                 </MainLayout>
               } />
               <Route path="/profile" element={

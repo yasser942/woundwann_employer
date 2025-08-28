@@ -7,6 +7,7 @@ const resources = {
       // Navigation
       dashboard: 'Dashboard',
       profile: 'Profile',
+      files: 'Files',
       logout: 'Logout',
       
       // Auth
@@ -55,6 +56,34 @@ const resources = {
       // Elderly House System
       elderlyHouseSystem: 'Elderly House System',
       careManagement: 'Care Management',
+      
+      // File Management
+      fileManagement: 'File Management',
+      uploadFiles: 'Upload Files',
+      dragDropFiles: 'Drag and drop files here, or click to browse',
+      supportedFormats: 'Supported formats: PDF, DOC, DOCX, JPG, PNG (Max 10MB)',
+      fileName: 'File Name',
+      fileSize: 'File Size',
+      fileType: 'File Type',
+      uploadDate: 'Upload Date',
+      actions: 'Actions',
+      download: 'Download',
+      view: 'View',
+      uploadedFiles: 'Uploaded Files',
+      noFilesUploaded: 'No files uploaded yet',
+      selectFiles: 'Select Files',
+      uploading: 'Uploading...',
+      uploadSuccess: 'Files uploaded successfully',
+      uploadError: 'Error uploading files',
+      removeFile: 'Remove File',
+      
+      // File Categories
+      medicalRecords: 'Medical Records',
+      identificationDocuments: 'ID Documents',
+      insuranceDocuments: 'Insurance Documents',
+      legalDocuments: 'Legal Documents',
+      emergencyContacts: 'Emergency Contacts',
+      other: 'Other',
     }
   },
   de: {
@@ -62,6 +91,7 @@ const resources = {
       // Navigation
       dashboard: 'Dashboard',
       profile: 'Profil',
+      files: 'Dateien',
       logout: 'Abmelden',
       
       // Auth
@@ -110,6 +140,34 @@ const resources = {
       // Elderly House System
       elderlyHouseSystem: 'Seniorenheim-System',
       careManagement: 'Pflegeverwaltung',
+      
+      // File Management
+      fileManagement: 'Dateiverwaltung',
+      uploadFiles: 'Dateien hochladen',
+      dragDropFiles: 'Dateien hier hineinziehen oder klicken zum Durchsuchen',
+      supportedFormats: 'Unterstützte Formate: PDF, DOC, DOCX, JPG, PNG (Max 10MB)',
+      fileName: 'Dateiname',
+      fileSize: 'Dateigröße',
+      fileType: 'Dateityp',
+      uploadDate: 'Upload-Datum',
+      actions: 'Aktionen',
+      download: 'Herunterladen',
+      view: 'Anzeigen',
+      uploadedFiles: 'Hochgeladene Dateien',
+      noFilesUploaded: 'Noch keine Dateien hochgeladen',
+      selectFiles: 'Dateien auswählen',
+      uploading: 'Wird hochgeladen...',
+      uploadSuccess: 'Dateien erfolgreich hochgeladen',
+      uploadError: 'Fehler beim Hochladen der Dateien',
+      removeFile: 'Datei entfernen',
+      
+      // File Categories
+      medicalRecords: 'Medizinische Unterlagen',
+      identificationDocuments: 'Ausweisdokumente',
+      insuranceDocuments: 'Versicherungsunterlagen',
+      legalDocuments: 'Rechtsdokumente',
+      emergencyContacts: 'Notfallkontakte',
+      other: 'Sonstige',
     }
   }
 };

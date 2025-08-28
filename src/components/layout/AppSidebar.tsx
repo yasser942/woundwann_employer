@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Home, User, LogOut, Globe } from 'lucide-react';
+import { Home, User, LogOut, Globe, FileText } from 'lucide-react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import {
@@ -25,6 +25,7 @@ import { Button } from '@/components/ui/button';
 
 const navigationItems = [
   { title: 'dashboard', url: '/dashboard', icon: Home },
+  { title: 'files', url: '/files', icon: FileText },
   { title: 'profile', url: '/profile', icon: User },
 ];
 
